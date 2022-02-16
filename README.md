@@ -1,5 +1,5 @@
 # HASS-Arduino-Serial
-Home Assistant custom component that enables Serial communication with an Arduino. Supports switches, sensors (digital / analogue read, DHT) and alarms.
+Home Assistant custom component that enables Serial communication with an Arduino. Supports switches and sensors (digital / analogue read, DHT).
 
 Communication is done via [pySerialTransfer](https://github.com/PowerBroker2/pySerialTransfer) so you will need it set up on your system.
 
@@ -12,7 +12,7 @@ You will also need installed in your Arduino IDE the followint, else the sketch 
 Steps to get it working:
 1. Set it up in the main configuration file
 2. Set up sensors, switches, etc
-3. Compile and the ArduinoSerialSketch library on your board. Make sure you have the libraries above first.
+3. Compile and upload the ArduinoSerialSketch library on your board. Make sure you have the libraries above first.
 4. Connect your devices onto the Arduino pins
 5. Plug your arduino into the USB
 6. Reboot hass or the system
