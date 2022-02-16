@@ -1,0 +1,12 @@
+### sensors.yaml      
+ 
+- platform: ArduinoSerial
+  ports: 
+    '/dev/ttyUSB0':
+      pins:
+        5:
+         name: Arduino Serial DHT
+         monitored_conditions:
+             - temperature
+             - humidity   
+

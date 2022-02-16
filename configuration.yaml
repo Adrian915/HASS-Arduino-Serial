@@ -1,0 +1,5 @@
+
+ArduinoSerial:
+  ports: 
+    '/dev/ttyUSB0':
+      baudrate: 115200

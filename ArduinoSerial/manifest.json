@@ -1,0 +1,9 @@
+{
+  "version": "0.9.0",
+  "domain": "Serial",
+  "name": "ArduinoSerial",
+  "documentation": "https://github.com/Adrian915/HASS-Arduino-Serial",
+  "config_flow": true,
+  "codeowners": [ "Adrian915" ],
+  "requirements": []
+}

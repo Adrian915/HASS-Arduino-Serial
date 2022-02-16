@@ -1,0 +1,8 @@
+### switches.yaml
+
+- platform: ArduinoSerial
+  ports: 
+    '/dev/ttyUSB0':
+      pins:
+        13:
+         name: TestSwitch13
